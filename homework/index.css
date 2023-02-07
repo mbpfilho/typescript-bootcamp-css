@@ -6,7 +6,7 @@ body{
   width: 90dvw;
   height: 90dvh;
   font-family: sans-serif;
-  font-weight: bold;
+  font-weight: 900;
   background-color: darkslateblue;
 }
 a{
@@ -25,6 +25,7 @@ header .type{
   width: 16px;
   height: 16px;
   line-height: 16px;
+  font-weight: bold;
   align-items: center;
   text-align: center;
   margin: 4px;
@@ -42,13 +43,31 @@ main{
   align-items: center;
   justify-content: space-around;
 }
-@media (max-width: 800px){
-  header{
-    left: 6px;
-  }
-  main{
-    flex-direction: column;
-  }
+/* main .levelSelector{
+  height: 80dvh;
+  min-height: 40px;
+} */
+main .level{
+  width: 58px;
+  height: 16dvh;
+  min-height: 50px;
+  margin: 16px;
+  line-height: 16dvh;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .8);;
+  border: 14px solid lightgray;
+  box-shadow: inset 0 0 30px 10px rgba(0, 0, 0, .8);
+  border-radius: 10dvh;
+  font-size: 54px;
+  text-decoration: none;
+  color: lightgray;
+  text-shadow: 0 0 4px black;
+}
+main .position1{
+  height: 58px;
+  line-height: 58px;
+  
 }
 main .spin{
   width: 180px;
@@ -61,28 +80,25 @@ main .spin{
   box-shadow: inset 0 0 30px 10px rgba(0, 0, 0, .8);
   border-radius: 50%;
   font-size: 44px;
-  font-weight: 900;
   text-decoration: none;
-  color: lightgray;
+  color: khaki;
   text-shadow: 0 0 4px black;
   z-index: 100;
 }
-main .level{
-  width: 10dvw;
-  height: 10dvh;
-  margin: 16px;
-  line-height: 10dvh;
-  align-items: center;
-  text-align: center;
-  background-color: ;
-  border: 14px solid lightgray;
-  box-shadow: inset 0 0 30px 10px rgba(0, 0, 0, .8);
-  border-radius: 10dvh;
-  font-size: 38px;
-  font-weight: 900;
-  text-decoration: none;
-  color: lightgray;
-  text-shadow: 0 0 4px black;}
+@media (max-width: 800px){
+  header{
+    left: 6px;
+  }
+  main{
+    flex-direction: column;
+  }
+  main .level{
+    width: 48px;
+    height: 8dvh;
+    line-height: 8dvh;
+    font-size: 42px;
+  }
+}
 footer{
   width: 100%;
   position: absolute;
@@ -91,6 +107,7 @@ footer{
 footer>.score{
   position: absolute;
   left: 6px;
+  font-size: 24px;
 }
 footer>nav{
   position: absolute;
