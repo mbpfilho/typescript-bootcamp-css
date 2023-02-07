@@ -1,0 +1,22 @@
+Cascade
+CSS WG - https://drafts.csswg.org/css-cascade/#cascading
+Cascade sorting order - https://www.w3.org/TR/css-cascade-5/#cascade
+Css tricks - https://css-tricks.com/css-cascade-layers/
+Specificity
+Specificity calculator: https://specificity.keegan.st/
+Custom properties
+--env browser properties https://developer.mozilla.org/en-US/docs/Web/CSS/env()
+Designing for iPhone - https://webkit.org/blog/7929/designing-websites-for-iphone-x/
+Css painting api -https://developer.mozilla.org/en-US/docs/Web/API/CSS_Painting_API
+Performance - https://lisilinhart.info/posts/css-variables-performance/
+CSS Units
+Docs - https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units
+About Viewports - https://www.youtube.com/watch?v=xl9R8aTOW_I
+Responsive design
+Container querries - https://www.youtube.com/watch?v=JsN_iE3prm0
+Flexbox
+A guide to flex box - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+Flex shrink - https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink
+Flex basis sandbox - https://codesandbox.io/s/flexbox-demo-forked-3c7lx
+Flex basis vs width(height) - https://www.freecodecamp.org/news/flexboxs-flex-basis-explained-83d1a01413b7/
+Flex :bug: -  https://github.com/philipwalton/flexbugs (editado) 
