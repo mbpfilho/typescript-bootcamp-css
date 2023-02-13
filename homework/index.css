@@ -2,6 +2,18 @@
   margin: 0;
   padding: 0;
 }
+:root{
+  --golden: linear-gradient(
+    45deg,
+    #462523 0,
+    #cb9b51 22%, 
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #462523 100%
+    );
+}
 body{
   width: 90vw;
   height: 90vh;
@@ -10,7 +22,7 @@ body{
   font-size: 20px;
   background-color: teal;
   background: url("./33353.jpg");
-  background-size: cover; 
+  background-size: contain; 
 }
 a{
   text-decoration: none;
@@ -31,16 +43,7 @@ header .typeBorder{
   align-items: center;
   justify-content: center;
   margin: 4px;
-  background-image: linear-gradient(
-    45deg,
-    #462523 0,
-    #cb9b51 22%, 
-    #f6e27a 45%,
-    #f6f2c0 50%,
-    #f6e27a 55%,
-    #cb9b51 78%,
-    #462523 100%
-    );
+  background: var(--golden);
   border-radius: 50%;
 }
 header .type{
@@ -115,16 +118,7 @@ main .spin{
   justify-content: center;
   width: 328px;
   height: 328px;
-  background: linear-gradient(
-    45deg,
-    #462523 0,
-    #cb9b51 22%, 
-    #f6e27a 45%,
-    #f6f2c0 50%,
-    #f6e27a 55%,
-    #cb9b51 78%,
-    #462523 100%
-    );
+  background: var(--golden);
   border-radius: 50%;
   z-index: 10;
 }
@@ -212,16 +206,7 @@ main .spinButton{
       width: 43vw;
       height: 43vw;
       justify-content: center;
-      background-image: linear-gradient(
-        45deg,
-        #462523 0,
-        #cb9b51 22%, 
-        #f6e27a 45%,
-        #f6f2c0 50%,
-        #f6e27a 55%,
-        #cb9b51 78%,
-        #462523 100%
-        );
+      background-image: var(--golden);
       border-radius: 50%;
     }
     main .spinButton{
@@ -265,16 +250,7 @@ footer .menuBorder{
   align-items: center;
   justify-content: center;
   margin: 4px;
-  background-image: linear-gradient(
-    45deg,
-    #462523 0,
-    #cb9b51 22%, 
-    #f6e27a 45%,
-    #f6f2c0 50%,
-    #f6e27a 55%,
-    #cb9b51 78%,
-    #462523 100%
-    );
+  background-image: var(--golden);
   border-radius: 50%;
 }
 footer .menu{
